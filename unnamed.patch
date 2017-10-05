@@ -1,0 +1,22 @@
+Index: test_app001.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- test_app001.iml	(date 1507184228000)
++++ test_app001.iml	(revision )
+@@ -2,8 +2,12 @@
+ <module type="WEB_MODULE" version="4">
+   <component name="NewModuleRootManager" inherit-compiler-output="true">
+     <exclude-output />
+-    <content url="file://$MODULE_DIR$" />
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.pub" />
++      <excludeFolder url="file://$MODULE_DIR$/build" />
++    </content>
+     <orderEntry type="sourceFolder" forTests="false" />
+     <orderEntry type="library" name="Dart SDK" level="project" />
++    <orderEntry type="library" name="Dart Packages" level="project" />
+   </component>
+ </module>
+\ No newline at end of file
